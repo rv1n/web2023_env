@@ -1,12 +1,10 @@
 .content {
-    position: absolute;
-    z-index: 1;
     background: #F7F7F7;
     border-radius: 0px;
 }
 
 .content_size-main {
-    height: 2946px;
+    height: 2600px;
     width: 1440px;
 }
 
@@ -27,15 +25,23 @@
     color: #2E2E2E;
 }
 
-.content__MainImg-left {
+
+.content__MainImg-right {
     height: 280px;
     width: 460px;
+    background: url('../../../img/img1.png');
     border-radius: 3px;
+    
 }
-.content__image{
-    position: absolute;
-    z-index: -1;
+.content__MainImg-left {    
+    
+    height: 280px;
+    width: 460px;
+    background: url('../../../img/img2.png');
+    border-radius: 3px;
+
 }
+
 
 .content__MainImg-header {
     font-family: 'Lora';
@@ -49,6 +55,7 @@
 }
 
 .content__MainImg-disc {
+
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -60,6 +67,7 @@
 }
 
 .content__MainImg-author {
+
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -70,6 +78,7 @@
 }
 
 .content__MainImg-date {
+
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -80,14 +89,10 @@
 }
 
 .content__avatar {
+
     border-radius: 60px;
 }
 
-.content__MainImg-right {
-    height: 280px;
-    width: 460px;
-    border-radius: 3px;
-}
 
 .content__button {
 
