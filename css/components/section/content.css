@@ -1,4 +1,6 @@
 .content {
+    position: relative;
+    z-index: 1;
     background: #F7F7F7;
     border-radius: 0px;
 }
@@ -25,19 +27,24 @@
     color: #2E2E2E;
 }
 
-
+.content__image{
+    position: absolute;
+    z-index: -1;
+}
 .content__MainImg-right {
+    position: relative;
+    z-index: 1;
     height: 280px;
     width: 460px;
-    background: url('../../../img/img1.png');
+
     border-radius: 3px;
     
 }
 .content__MainImg-left {    
-    
+    position: relative;
+    z-index: 1;
     height: 280px;
     width: 460px;
-    background: url('../../../img/img2.png');
     border-radius: 3px;
 
 }
