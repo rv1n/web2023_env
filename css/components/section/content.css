@@ -3,54 +3,46 @@
     z-index: 1;
     background: #F7F7F7;
     border-radius: 0px;
-}
-
-.content_size-main {
-    height: 2600px;
+    min-height: 1255px;
+    height: fit-content;
     width: 1440px;
 }
 
-.content_size-other {
-    height: 1706px;
-    width: 1440px;
-}
-
-.content__h2 {
+.content__title {
+    text-align: center;
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-
+    width: 188px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DEDEDE;
     letter-spacing: 2px;
-
+    margin-top: 61px;
+    margin-bottom: 23px;
     color: #2E2E2E;
 }
 
-.content__image{
+.brd{
+    display: flex;
+    justify-content: center;
+}
+
+.content__image_background{
     position: absolute;
     z-index: -1;
 }
-.content__MainImg-right {
-    position: relative;
-    z-index: 1;
-    height: 280px;
-    width: 460px;
-
-    border-radius: 3px;
-    
-}
-.content__MainImg-left {    
+.content__inimage-context {    
     position: relative;
     z-index: 1;
     height: 280px;
     width: 460px;
     border-radius: 3px;
-
 }
 
 
-.content__MainImg-header {
+.content__inimage-context_title {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -58,10 +50,15 @@
     line-height: 30px;
     text-decoration: none;
 
+    position: absolute;
+    height: 30px;
+    left: 20px;
+    top: 157px;
+
     color: #FFFFFF;
 }
 
-.content__MainImg-disc {
+.content__inimage-context_discription {
 
     font-family: 'Oxygen';
     font-style: normal;
@@ -70,11 +67,19 @@
     line-height: 25px;
     text-decoration: none;
 
+    position: absolute;
+    height: 25px;
+    left: 20px;
+    top: 193px;
+
+
     color: rgba(255, 255, 255, 0.7);
 }
 
-.content__MainImg-author {
-
+.content__inimage-context_author {
+    position: absolute;
+    top: 230px;
+    left: 56px;
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -84,8 +89,10 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.content__MainImg-date {
-
+.content__inimage-context_date {
+    position: absolute;
+    top: 230px;
+    left: 332px;
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -96,19 +103,28 @@
 }
 
 .content__avatar {
-
     border-radius: 60px;
 }
 
+.content__avatar_head-pos{
+    position: absolute;
+    top: 235px;
+    left: 20px;
+}
 
 .content__button {
-
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 6px 9px;
     background-color: #DD783F;
     border: none;
     border-radius: 3px;
 }
 
 .content__button-text {
+    
+    
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -116,7 +132,7 @@
     line-height: 13px;
 
     text-transform: uppercase;
-
+    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -136,4 +152,24 @@
     line-height: 35px;
 
     color: #101315;
+}
+
+.other-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 296px 296px 296px;
+    grid-template-rows: 291px 291px;
+    grid-column-gap: 24px;
+    grid-row-gap: 25px;
+}
+
+.content__image{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 460px 460px;
+    grid-column-gap: 20px;
+    
 }

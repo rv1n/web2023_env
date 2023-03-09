@@ -1,4 +1,5 @@
-.contentBlock {
+.content-block {
+    position: relative;
     height: 291px;
     width: 296px;
 
@@ -7,7 +8,10 @@
     border-radius: 3px;
 }
 
-.contentBlock__header {
+.content-block__header {
+    position: absolute;
+    top: 164px;
+    left: 13px;
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -17,7 +21,10 @@
     color: #101315;
 }
 
-.contentBlock__disc {
+.content-block__discription {
+    position: absolute;
+    top: 191px;
+    left: 13px;
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -27,18 +34,25 @@
     color: #7A7A7A;
 }
 
-.contentBlock__author {
+.content-block__author {
+    position: absolute;
+    top: 250px;
+    left: 49px;
+    
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 35px;
-
+    
     color: #999999;
 
 }
 
-.contentBlock__date {
+.content-block__date {
+    position: absolute;
+    top: 250px;
+    left: 225px;
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -47,4 +61,17 @@
 
     color: #999999;
 
+}
+.content__avatar_other-pos{
+    position: absolute;
+    top: 255px;
+    left: 13px;
+}
+
+.brd-content{
+    position: absolute;
+    top: 242px;
+    height: 1px;
+    width: 296px;
+    border-bottom: 1px solid #EFEFEF;
 }

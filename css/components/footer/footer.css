@@ -1,8 +1,100 @@
 .footer {
     position: relative;
     z-index: 1;
-    height: 89px;
+    height: 378px;
     width: 1440px;
-    background: linear-gradient(0deg, rgba(35, 47, 56, 0.6), rgba(35, 47, 56, 0.6)), url("../../../img/footer.png");
+    background: url("../../../img/imgfotter.png");
     border-radius: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.brd-footer {
+    position: absolute;
+    height: 1px;
+    left: 0%;
+    right: 0%;
+    top: 288px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+}
+
+.footer__navigation {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 1440px;
+    height: 89px;
+    background: rgba(35, 47, 56, 0.6);
+    border-radius: 0px;
+}
+
+.footer__title {
+    position: absolute;
+    top: 81px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    width: 188px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DEDEDE;
+    margin-bottom: 23px;
+
+    text-align: center;
+
+    color: #EFEFEF;
+}
+
+.footer__email-input {
+    position: absolute;
+    top: 149px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 208px;
+    border: 0;
+    background: #ffffff;
+    border-radius: 3px 0px 0px 3px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #817F83;
+}
+
+.footer__button {
+    position: relative;
+
+    height: 50px;
+    width: 125px;
+    top:149px;
+    left: 252px;
+
+    border: none;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0px 3px 3px 0px;
+}
+
+.footer__button-text {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
 }

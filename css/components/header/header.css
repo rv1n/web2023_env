@@ -1,57 +1,69 @@
-.header-main_background {
+.header__navigation {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.header_background {
+    position: relative;
     height: 500px;
     width: 1440px;
     background: url("../../../img/inhead.jpg");
     border-radius: 0px;
 }
 
-.header__text-h1 {
+
+.header__text-title {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 51px;
+    margin-bottom: 20px;
 
+    text-align: center;
     letter-spacing: 2px;
-    
+
 }
-.header__text-h1_white{
+
+.header__text-title_white {
     color: #FFFFFF;
 }
 
-.header__text-h1_black{
+.header__text-title_black {
     color: #000000;
 }
 
-.header__text-p {
-
+.header__text-discription {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
+    margin-bottom: 31px;
+}
 
-
+.header__text-discription_white {
     color: rgba(255, 255, 255, 0.63);
 }
 
-.header__text-p_white{
-    color: rgba(255, 255, 255, 0.63);
-}
-.header__text-p_black{
+.header__text-discription_black {
     color: rgba(46, 46, 46, 0.63);
 }
 
 
-.header__text-button {
-
+.button-header {
+    position: relative;
+    width: 167px;
+    height: 44px;
     background-color: #DD783F;
     border: none;
     border-radius: 3px;
 }
 
-.header__text-button-text {
-
+.button-header__text {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -62,4 +74,13 @@
 
     color: #FFFFFF;
 
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 177px;
+    left: -3px;
 }

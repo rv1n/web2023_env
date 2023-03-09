@@ -1,18 +1,18 @@
-.secmenu {
-
+.section-menu {
+    position: relative;
+    width: 940px;
     height: 65px;
-    width: 1440px;
-
-    background: #FFFFFF;
-    border-radius: 0px;
+    left: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.secmenu__item {
-    margin-right: 41px;
+.section-menu__item {
     display: inline;
 }
 
-.secmenu__item-link {
+.section-menu__item-link {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -20,7 +20,6 @@
     line-height: 20px;
 
     color: #768088;
-
 
     text-decoration: none;
 }
