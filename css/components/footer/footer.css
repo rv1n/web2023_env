@@ -54,6 +54,7 @@
 .footer__email-input {
     position: absolute;
     top: 149px;
+    left: 470px;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 35px;
@@ -79,7 +80,7 @@
     height: 50px;
     width: 125px;
     top:149px;
-    left: 252px;
+    left: 192px;
 
     border: none;
     background: rgba(255, 255, 255, 0.28);
