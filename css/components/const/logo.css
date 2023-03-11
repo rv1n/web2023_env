@@ -1,9 +1,5 @@
 .logo {
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
+    font: normal 26px/26px 'Lora';
 }
 
 .header__logo{

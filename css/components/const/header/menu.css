@@ -16,7 +16,6 @@
     top: 29px;
     font-size: 12px;
     line-height: 20px;
-
     letter-spacing: 0.6px;
 }
 .menu_pos_footer{
@@ -24,10 +23,7 @@
     top: 31px;
     font-size: 11px;
     line-height: 26px;
-
     letter-spacing: 1px;
-    
-
 }
 
 .menu__item-header {
@@ -43,14 +39,9 @@
 }
 
 .menu__item-link {
- 
-    
     font-family: 'Oxygen';
     font-style: normal;
-    font-weight: 400;
-
     text-transform: uppercase;
     text-decoration: none;
-
 }
 

@@ -13,13 +13,8 @@
 }
 
 .section-menu__item-link {
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-
-    color: #768088;
-
+    font: normal 14px/20px 'Lora';
     text-decoration: none;
+
+    color: #768088;   
 }

@@ -1,3 +1,8 @@
+.header {
+    min-height: 360px;
+    height: fit-content;
+}
+
 .header__navigation {
     position: relative;
     display: flex;
@@ -10,19 +15,13 @@
     position: relative;
     height: 500px;
     width: 1440px;
-    background: url("../../../img/inhead.jpg");
-    border-radius: 0px;
+    background: url("../../../../img/header_background.jpg");
 }
 
 
 .header__text-title {
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 51px;
+    font: normal 50px/51px 'Lora';
     margin-bottom: 20px;
-
     text-align: center;
     letter-spacing: 2px;
 
@@ -37,12 +36,9 @@
 }
 
 .header__text-discription {
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
+    font: normal 17px/20px 'Oxygen';
     margin-bottom: 31px;
+    text-align: center;
 }
 
 .header__text-discription_white {
@@ -64,16 +60,10 @@
 }
 
 .button-header__text {
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-
+    font: normal, 13px/20px 'Oxygen';
     text-align: center;
 
     color: #FFFFFF;
-
 }
 
 .header__content {
@@ -81,6 +71,11 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+}
+
+.header__content_main-pos {
     top: 177px;
-    left: -3px;
+}
+.header__content_other-pos {
+    top: 156px;
 }

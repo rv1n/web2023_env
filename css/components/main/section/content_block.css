@@ -12,11 +12,7 @@
     position: absolute;
     top: 164px;
     left: 13px;
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
+    font: normal 16px/21px 'Lora';
 
     color: #101315;
 }
@@ -25,11 +21,7 @@
     position: absolute;
     top: 191px;
     left: 13px;
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
+    font: normal 13px/19px 'Oxygen';
 
     color: #7A7A7A;
 }
@@ -38,37 +30,32 @@
     position: absolute;
     top: 250px;
     left: 49px;
-    
+
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 35px;
-    
-    color: #999999;
 
+    color: #999999;
 }
 
 .content-block__date {
     position: absolute;
     top: 250px;
     left: 225px;
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 35px;
+    font: normal 12px/35px 'Oxygen';
 
     color: #999999;
-
 }
-.content__avatar_other-pos{
+
+.content__avatar_other-pos {
     position: absolute;
     top: 255px;
     left: 13px;
 }
 
-.brd-content{
+.brd-content {
     position: absolute;
     top: 242px;
     height: 1px;

@@ -3,7 +3,7 @@
     z-index: 1;
     height: 378px;
     width: 1440px;
-    background: url("../../../img/imgfotter.png");
+    background: url("../../../../img/footer_background.png");
     border-radius: 0px;
     display: flex;
     justify-content: center;
@@ -15,9 +15,8 @@
     left: 0%;
     right: 0%;
     top: 288px;
-
+    
     background: rgba(255, 255, 255, 0.12);
-
 }
 
 .footer__navigation {
@@ -28,6 +27,7 @@
     flex-direction: row;
     width: 1440px;
     height: 89px;
+
     background: rgba(35, 47, 56, 0.6);
     border-radius: 0px;
 }
@@ -35,17 +35,11 @@
 .footer__title {
     position: absolute;
     top: 81px;
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-
+    font: normal 25px/30px 'Oxygen';
     width: 188px;
     padding-bottom: 16px;
     border-bottom: 1px solid #DEDEDE;
     margin-bottom: 23px;
-
     text-align: center;
 
     color: #EFEFEF;
@@ -55,32 +49,21 @@
     position: absolute;
     top: 149px;
     left: 470px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 35px;
-    padding-right: 208px;
+    padding: 18px 204px 18px 35px;
     border: 0;
     background: #ffffff;
     border-radius: 3px 0px 0px 3px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    /* identical to box height */
-
+    font: normal 12px/14px 'Roboto';
 
     color: #817F83;
 }
 
 .footer__button {
     position: relative;
-
     height: 50px;
     width: 125px;
-    top:149px;
-    left: 192px;
+    top: 149px;
+    left: 188px;
 
     border: none;
     background: rgba(255, 255, 255, 0.28);
@@ -88,14 +71,8 @@
 }
 
 .footer__button-text {
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-
+    font: normal 13px/20px 'Oxygen';
     text-align: center;
 
     color: #FFFFFF;
-
 }
